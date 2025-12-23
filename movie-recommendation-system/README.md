@@ -11,21 +11,32 @@ This project implements various recommendation algorithms including:
 - Content-based filtering
 - Hybrid approaches
 
-## Dataset
+## Dataset Statistics
 
-MovieLens 100K dataset containing:
-- 100,000 ratings
-- 943 users
-- 1,682 movies
+MovieLens 100K dataset:
+- **Total Ratings:** 100,000
+- **Users:** 943
+- **Movies:** 1,682
+- **Rating Scale:** 1-5 stars
+- **Sparsity:** 93.7%
+- **Average Rating:** 3.53
+
+Genre Distribution:
+- Drama: 725 movies
+- Comedy: 505 movies
+- Action: 251 movies
+- Thriller: 251 movies
+- Romance: 247 movies
 
 ## Project Structure
 
 ```
 Movie_Recommendation_System/
-├── data/           # Dataset files
-├── notebooks/      # Jupyter notebooks
-├── results/        # Model results and visualizations
-└── models/         # Saved models
+├── data/                  # Dataset files
+├── notebooks/             # Jupyter notebooks
+├── results/               # Model results and visualizations
+│   └── visualizations/    # Charts and plots
+└── models/                # Saved models
 ```
 
 ## Installation
@@ -36,4 +47,4 @@ pip install -r requirements.txt
 
 ## Status
 
-Project in development.
+Dataset loaded and explored. EDA complete with visualizations.
